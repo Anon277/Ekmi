@@ -1,0 +1,27 @@
+.body{
+
+}
+.block{
+    width: 370px;
+    height: 302px;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 80px;
+}
+.adress{
+    text-transform: capitalize;
+}
+.tellBlock{
+    display: flex;
+}
+.tellTitle{
+    margin-right: 6px;
+}
+.tells{
+    
+}
+.tell{
+    margin-bottom: 5px;
+}

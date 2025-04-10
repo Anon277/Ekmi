@@ -1,0 +1,15 @@
+.body{
+    width: 390px;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--first-letter-color);
+}
+.title{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+}

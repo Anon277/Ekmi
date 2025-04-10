@@ -1,0 +1,25 @@
+.body{
+    width: 624px;
+    height: 121px;
+    border: 1px solid #c9c9c9;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 6%;
+    margin-bottom: 10px;
+}
+.text{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 6%;
+    max-width: 480px;
+}
+.line{
+    pointer-events: none;
+}

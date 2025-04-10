@@ -1,0 +1,31 @@
+.content{
+    height: 479px;
+    background:  17.5% no-repeat url('./src/assets/img/backgrounds/bosfor4.png'), #A9C2BE;
+}
+.mainBlock{
+    padding-top: 31px;
+    float:right;
+    margin-right: 16.32%;
+}
+
+@media (max-width:900px) {
+    .content{
+        background-image: none;
+    }
+    .mainBlock{
+        display: flex;
+        float:unset ;
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width:525px){
+    .content{
+        height: 433px;
+    }
+    .mainBlock{
+        padding: 56px 0;
+    }
+}
+

@@ -1,0 +1,17 @@
+.body .title{
+    padding-bottom:  45px;
+}
+.slide{
+    display: flex;
+    padding-right: 12px;
+}
+.smallImg{
+    display: block;
+}
+.leftBlock{
+    margin-right: 12px;
+}
+.leftBlock .smallImg:first-child{
+    margin-bottom: 12px;
+}
+

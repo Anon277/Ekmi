@@ -1,0 +1,21 @@
+.sliderarrow{
+    margin: 123px 30px 0 30px;
+}
+.sliderarrow img{
+    width: 16px;
+    height: 29px;
+}   
+.buttonnext{
+    transform: rotate(180deg);
+}
+@media (max-width: 430px) {
+    .sliderarrow{
+        margin: 123px 20px 0 20px;
+        width: 13px;
+        height: 24px;
+    }
+    .sliderarrow img{
+        width: 13px;
+        height: 24px;
+    }
+}

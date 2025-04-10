@@ -1,0 +1,9 @@
+.content{
+    height: 536px;
+    background-image: url('./src/assets/img/backgrounds/background-form-img.png');
+}
+.mainBlock{
+    padding-top: 45px;
+    float:right;
+    margin-right: 14.17%;
+}

@@ -1,0 +1,9 @@
+.body{
+    position: relative;
+    height: 474px;
+}
+.rotateBlock{
+    position: absolute;
+    bottom: 0;
+    left: 42px;
+}

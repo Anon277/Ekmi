@@ -1,0 +1,13 @@
+.body{
+    display: flex;
+}
+.imgBlock{
+    padding-right: 10px;
+}
+.img{
+    width: 100%;
+}
+
+.body .imgBlock:last-child{
+    padding: 0;
+}

@@ -1,0 +1,52 @@
+.body{
+    display: grid;
+    padding-bottom: 60px;
+}
+
+.paginations button{
+    margin: 0 7.5px;
+}
+.paginations{
+    justify-content: center;
+    display: flex;
+}
+.buttonArrow{
+    display: flex;
+    align-items: center;
+}
+.buttonArrow img{
+    width: 6px;
+    height: 10px;
+}
+.buttonArrow:last-child{
+    rotate: 180deg;
+}
+.pageNum p{
+    font-family: 'OpenSans';
+    font-size: 20px;
+    font-weight: 200;
+}
+.paginations{
+    margin-bottom: 60px;
+}
+.pageButton{
+    text-align: center;
+}
+.pageButtonBody{
+    background-color: var(--first-letter-color);
+
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+    height: 43px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.pageButtonBody:hover{
+    color: var(--first-letter-color);
+    background-color: white;
+    transition: 0.25s ;
+}

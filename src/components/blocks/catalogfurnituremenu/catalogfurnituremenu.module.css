@@ -1,0 +1,22 @@
+.body{
+    display: flex;
+    align-items: end;
+    padding-bottom: 80px;
+    padding-top: 21px;
+    justify-content: space-between;
+}
+.block{
+    max-width: 167px;
+    overflow: hidden;
+}
+.block:hover{
+    color: var(--first-letter-color);
+}
+.blockImg{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}

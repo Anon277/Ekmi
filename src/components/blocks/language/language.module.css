@@ -1,0 +1,30 @@
+.body{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.title{
+    background-color: white;
+    font-size: 13px;
+    font-weight: 600;
+    color:  #343434B2;
+    margin-right: 6px;
+}
+
+.menublock{
+    display: block;
+    padding: 2px 6px;
+    background-color: white;
+    color: #343434B2;
+    font-size: 13px;
+    font-weight: 600;
+}
+.menublock:hover{
+    color: var(--first-letter-color);
+}
+.menu{
+    transition: 0.25s ;
+    box-shadow: 0px 0px 9px 2px #00000026;
+    top: 16px;
+    position: absolute;
+}

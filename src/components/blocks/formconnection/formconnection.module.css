@@ -1,0 +1,15 @@
+.body{  
+    margin-bottom: clamp( 45px,4.8vw, 80px);
+    margin-top: clamp( 45px,4.8vw, 80px);
+
+    height: 596px;
+    background-color: var(--dark-background-color);
+    background-image: url('./src/assets/img/backgrounds/bosfor6.png') ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.form{
+    position: absolute;
+    right: 122px;
+    top: 54px;
+}

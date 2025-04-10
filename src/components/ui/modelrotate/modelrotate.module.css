@@ -1,0 +1,47 @@
+.body{
+    position: relative;
+    width: fit-content;
+    height: 182px   ;
+}
+.circle{
+    position: absolute;
+    background-color: #F2F3F5;
+    width: 52px;
+    height: 52px;
+    border-radius: 30px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.arowsBlock{
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.arrowRight, .arrowLeft{
+    height: 11px;
+}
+.arrowRight .arrowImg{
+    transform: scaleX(-1);
+}
+.arrowImg{
+    max-width: 7px;
+}
+.button{
+    height: 7px;
+    background-color: #F2F3F5;
+}
+.inscription{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 13px;
+}

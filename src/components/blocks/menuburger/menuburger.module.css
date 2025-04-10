@@ -1,0 +1,41 @@
+.body{
+    position: relative;
+}
+.button{
+    background-color: white;
+}
+.menu{
+    position: absolute;
+    right: -18px;
+    top: 0;
+    padding: 8px 31px 29px 18px;
+    background-color: white;
+    transition: 1s;
+    z-index: 10;
+}
+.menu .block:last-child{
+    margin: 0;
+}
+.block{
+    margin-bottom: 22px;
+    display: block;
+    width: 174px;
+}
+.top{
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+.cross{
+    width:16px;
+    height: 15px;
+}
+.text{
+    color: var(--main-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.95px;
+}
+.block:hover > .text{
+    color: var(--first-letter-color);
+}

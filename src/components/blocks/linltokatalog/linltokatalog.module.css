@@ -1,0 +1,42 @@
+.body{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+.body:hover > .menu{
+    display: block;
+}
+.menu{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 9px 2px #00000026;
+    z-index:10;
+}
+.block{
+    display: block;
+    width: 208px;
+    height: 39px;
+    background-color: white;
+    color: var(--main-text-color);
+}
+.block:hover{
+    background-color: var(--first-letter-color);
+    transition: 0.25s ;
+}
+.block:hover .menutext{
+    color: white;
+    transition: 0.25s ;
+}
+.menutext{
+    padding: 10px 0 0 11px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.text{
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+.text:hover{
+    color: var(--first-letter-color);
+}

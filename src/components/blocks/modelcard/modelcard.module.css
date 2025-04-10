@@ -1,0 +1,10 @@
+.body{
+    padding-top: 10px;
+}
+.content{
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto; 
+}

@@ -1,0 +1,21 @@
+.body{
+    position: relative;
+}
+.img{
+    width: 100%;
+}
+.imgLiner {
+    width: 100%;
+    height: auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

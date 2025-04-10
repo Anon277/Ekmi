@@ -1,0 +1,25 @@
+.buttontext{
+    font-family: 'OpenSans';
+    color: white;
+}
+.button{
+    display: flex;
+    width: 271px;
+    height: 42px;
+    background-color: var(--first-letter-color);
+    align-items: center;
+}
+.buttontext{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 7px 14.5px 8px 11px;
+}
+.button:hover{
+    transition: 0.25s;
+    background-color: white;
+}
+
+.body:hover .buttontext{
+    color: var(--first-letter-color);
+}

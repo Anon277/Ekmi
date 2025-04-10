@@ -1,0 +1,208 @@
+.content{
+    position: relative;
+    height: 520px;
+}
+.blocknete{
+    position: absolute;
+    width:  clamp(187px, 55.9vw, 805px);
+    height: 390px;
+    z-index: 2;
+    background-color:#A9C2BE;
+    background-image: url('./../../../assets/img/backgrounds/rete.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    top: 35px;
+}   
+.mainblock{
+    position: absolute;
+    width: 1063px;
+    height: 453px;
+    z-index: 1;
+    background-color:var(--dark-background-color);
+    top: 35px;
+    right: 0px;
+}
+.maincontent{
+    margin: 107px 0 0 458px;
+    max-width: 374px;
+    color: white;
+}
+.body .title{
+    padding-bottom: 30px;
+    margin-left: 0;
+    line-height: auto;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+.blockimage{
+    position: absolute;
+
+    height: 401px;
+    z-index: 3;
+
+    top: 65px;
+    right: 44.1%;
+}
+.text{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+.blockimage img{
+    width: 600px;
+    height: 401px;
+}
+.orengeblocktop{
+    position: absolute;
+    width: 149px;
+    height: 110px;
+    background-color: var(--first-letter-color);
+    z-index: 3;
+
+    right: 86px;
+}
+.orengeblocktop p{
+    color: white;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.245em;
+    margin: 60px 0 0 11px;
+}
+.orengeblockbottom{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: var(--first-letter-color);
+    z-index: 2;
+
+    top: 420px;
+    left: 235px;
+}
+
+@media (max-width: 1440px) {
+    .maincontent{
+        margin-left: 500px;
+    }
+}
+@media (max-width: 1340px) {
+    .orengeblockbottom{
+        left: 100px;
+    }
+}
+@media (max-width: 1300px) {
+    .maincontent{
+        margin-left: 550px;
+    }
+}
+@media (max-width: 1250px) {
+    .orengeblockbottom{
+        left: 0px;
+    }
+}
+@media (max-width: 1240px) {
+    .maincontent{
+        margin-left: 600px;
+    }
+}
+@media (max-width:1130px) {
+    .maincontent{
+        margin-left: 650px;
+    }
+}
+@media (max-width:1000px) {
+    .body{
+        height: calc(660px + 90px + 45px);
+    }
+    .blocknete{
+        right: 0;
+        top: calc(257px + 70px);
+    }
+    .blockimage{
+        top: calc(219px + 70px);
+        right: 17px;
+        height: auto;
+    }
+    .blockimage img{
+        width:  clamp(340px, 55.9vw, 559px);
+        height: auto;
+    }
+    .orengeblockbottom{
+        left: auto;
+        right: 44vw;
+        top: calc(432px + 70px - 14px);
+    }
+    .mainblock{
+        height: 453px;
+        width: 100%;
+    }
+    .maincontent{
+        margin: 79px 0 0 42px;
+        max-width:fit-content;
+    }
+}
+@media (max-width:900px) {
+    .blocknete{
+        width: clamp(187px, 55.9vw, 347px);
+        height: 320px;
+    }
+}
+@media (max-width: 500px) {
+    .body .title{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .subtitle{
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
+    .text{
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        line-height: 18.9px;
+    }
+}
+@media (max-width:800px) {
+    .blocknete{
+        background-size: cover;
+    }
+    .maincontent{
+        margin-left: 18px;
+    }
+    .orengeblocktop{
+        width: 92px;
+        height: 70px;
+        right: 0;
+    }
+    .orengeblockbottom{
+        width: 67px;
+        height: 42px;
+        right: 253px;
+        top: calc(432px + 70px);
+    }
+    .orengeblocktop p{
+        line-height: 12.95px;
+        font-size: 10px;
+        letter-spacing: 24.5%;
+        margin: 46px 0 0 5px;
+    }
+    .button{
+        position: absolute;
+        top: 582px;
+        right: calc(50% - (268px / 2));
+    }
+    .blockimage img{
+        width: 340px;
+        height: 239px;
+    }
+    .blocknete{
+        width: 287px;
+        height: 260px;
+    }
+}
+

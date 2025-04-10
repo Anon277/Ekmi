@@ -1,0 +1,12 @@
+.ModelInInterior .swiper-pagination-bullets{
+    bottom: 0 !important;
+}
+.ModelInInterior .swiper-pagination-bullet{
+    background:  #F2F3F5;
+    width: 13px;
+    height: 13px;
+    opacity: unset;
+}
+.ModelInInterior .swiper-pagination-bullet-active{
+    background: var(--first-letter-color);
+}

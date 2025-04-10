@@ -1,0 +1,22 @@
+.body{
+    background-color: var(--first-letter-color);
+    color: white;
+    text-transform: uppercase;
+
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: var(--first-letter-color);
+    color: white;
+}
+.body:hover{
+    background-color: var(--dark-background-color);
+    color: white;
+    transition: 0.25s;
+}
+.text{
+    text-transform: uppercase;
+}

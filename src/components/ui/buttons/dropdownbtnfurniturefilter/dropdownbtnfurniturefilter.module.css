@@ -1,0 +1,67 @@
+.body{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    position: relative;
+}
+.mainButton{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.54px;
+}
+.menuButton{
+    display: block;
+    padding-bottom: 13px;
+    min-width: 100%;
+    text-align: left;
+    background-color: unset;
+    font-size: 17px;
+    font-weight: 400;
+}
+.menuButton:hover{
+    color: var(--first-letter-color);
+}
+.ddText{
+    width: fit-content;
+}
+.menuButton:hover > .ddText{
+    border-bottom: 2px solid var(--first-letter-color);
+}
+.dropDawnMenu{
+    width: 213px;
+    height: 315px;
+    padding: 10px 9px 19px 15px;
+    color: #4B4844;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    left: -15px;
+    top: -12.5px;
+    box-shadow: 0px 0px 9px 2px #00000026;
+}
+.dropDawnMenu .menuButton:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.8px;
+    padding: 3px 0 14px 0;
+}
+.arrow{
+    padding-top: 4px;
+}
+.menuButtonArrow{
+    rotate: 180deg;
+}
+.mainButtonText{
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+}
+.mainButton:hover{
+    
+}

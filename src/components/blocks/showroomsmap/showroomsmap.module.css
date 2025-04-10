@@ -1,0 +1,35 @@
+.body{
+    height: 619px;
+    background-image: url('./src/assets/img/backgrounds/showroomsmap.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+.button{
+    background: none;
+    user-select: none;
+    position: absolute;
+}
+.body .button:nth-child(1){
+    left: 441px;
+    top: 94px;
+}
+.body .button:nth-child(2){
+    left: 500px;
+    top: 115px;
+}
+.body .button:nth-child(3){
+    left: 648px;
+    top: 282px;
+}
+.body .button:nth-child(4){
+    left: 979px;
+    top: 256px;
+}
+.body .button:nth-child(5){
+    left: 1204px;
+    top: 180px;
+}
+.body .button:nth-child(6){
+    left: 1044px;
+    top: 462px;
+}

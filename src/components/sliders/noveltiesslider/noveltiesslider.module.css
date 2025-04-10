@@ -1,0 +1,32 @@
+.noveltiesslider{
+}
+.mainSlider, .firstSliser ,.secondSliser{
+    display: flex;
+}
+.slidertrack{
+    display: flex;
+}
+.slidertrack{
+    max-width: 970px;
+    overflow: hidden;
+}
+.firstSliser{
+    margin-bottom: 60px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+@media (max-width: 1100px) {
+    .slidertrack{
+        max-width: 620px;
+    }
+}
+@media (max-width: 750px) {
+    .slidertrack{
+        max-width: 270px;
+    }
+}
+
+

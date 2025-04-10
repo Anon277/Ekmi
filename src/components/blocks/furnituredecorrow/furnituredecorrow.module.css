@@ -1,0 +1,49 @@
+.body{
+    
+}
+.content{
+   display: flex;
+}
+.leftBlock, .rightBlock{
+    display: flex;
+}
+.block{
+    padding-right: 30px;
+}
+.img{
+    width: 100%;
+}
+.img:last-child{
+    padding: 0;
+}
+.slider{
+    display: none;
+    padding: 0 5%;
+}
+@media (max-width: 855px) {
+    .content{
+        display: block;
+     }
+    .leftBlock, .rightBlock{
+        justify-content: space-evenly;
+    }
+    .leftBlock{
+        padding-bottom: 7%;
+     }
+    .block{
+        padding: 0;
+    }
+}
+@media (max-width: 670px){
+    .content{
+        display: none;
+    }
+    .slider{
+        display: block;
+    }
+}
+@media (max-width: 408px){
+    .slider{
+        padding: 0;
+    }
+}

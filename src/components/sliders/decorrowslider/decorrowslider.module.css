@@ -1,0 +1,22 @@
+.slider .img{
+    width: 100%;
+}
+.slider swiper-container::part(pagination) {
+    position: unset;
+}
+.slider swiper-container::part(wrapper){
+    padding-bottom: 10px;
+}
+.slider swiper-container::part(bullet){
+    width: 7px;
+    height: 7px;
+    background-color: #F2F3F5;
+    opacity: 1;
+    margin: 0 2px;
+}
+.slider swiper-container::part(bullet-active){
+    width: 7px;
+    height: 7px;
+    background-color: var(--first-letter-color);
+    margin: 0 2px;
+}

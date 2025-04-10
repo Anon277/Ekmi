@@ -1,0 +1,29 @@
+.body{
+    margin-right: 80px;
+    transition: 0.55s ;
+}
+.imgContainer{
+    width: 270px;
+    height: 278px;
+    background-color: #F2F3F5;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.price{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    color: var(--first-letter-color);
+} 

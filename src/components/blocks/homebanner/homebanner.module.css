@@ -1,0 +1,136 @@
+.body{
+    background: #CCB2A3 ;
+    padding: 0 20px;
+    height: 590px;
+}
+.gridContent{
+    display: grid;
+    grid-template:  "f f" 95px
+                    "t s" 259px
+                    "b s" 103px / minmax(0, 270px) minmax(0, 870px);
+    column-gap: 30px;
+}
+.foundation{
+    grid-area: f;
+    align-content: center;
+}
+.foundationTitle{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: white;
+    text-align: right;
+}
+.mainTitle{
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 46.2px;
+    align-content: end;
+
+    grid-area: t;
+}
+.slider{
+    grid-area: s;
+    text-align: right;
+}
+.button{
+    grid-area: b;
+    align-content: end;
+}
+.homebanner swiper-container::part(bullet){
+    width: 13px;
+    height: 13px;
+    opacity: 100;
+    background-color: #F2F3F5;
+}
+.homebanner swiper-container::part(bullet-active){
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-letter-color);
+}
+.homebanner swiper-container::part(pagination){
+    margin-top: 15px;
+    position:unset;
+}
+@media (max-width:1100px) {
+    swiper-container::part(bullet){
+        background-color: white;
+    }
+    .sliderBody{
+        max-width: 620px;
+        display: inline-block;
+    }
+}
+@media (max-width:975px) {
+    .sliderBody{
+        display: block;
+    }
+}
+@media (max-width:875px){
+    .mainTitle{
+        font-size: 36px;
+    }
+    .gridContent{
+        column-gap: 0;
+    }
+}
+@media (max-width:812px){
+    .body{
+        height: 500px;
+    }
+}
+@media (max-width:760px){
+    .mainTitle{
+        align-content: start;
+    }
+    .button{
+        align-content: center;
+    }
+}
+@media (max-width:670px) {
+    .body{
+        padding: 0;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .gridContent{
+        display: grid;
+        justify-content: center;
+        grid-template:
+            "t" auto
+            "s " auto
+            "f" auto
+            "b" auto /  minmax(0,auto);
+    }
+    .mainTitle{
+        font-size: 25px;
+        line-height: 27.5px;
+        padding: 30px 0;
+        padding-left: 18px;
+    }
+    .foundationTitle{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    .slider{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:408px) {
+    .homebanner swiper-container::part(bullet){
+        width: 7px;
+        height: 7px;
+    }
+    .homebanner swiper-container::part(bullet-active){
+        width: 7px;
+        height: 7px;
+    }
+    .homebanner swiper-container::part(pagination){
+        margin-top: 15px;
+    }
+}

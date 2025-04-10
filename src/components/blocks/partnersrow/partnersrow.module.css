@@ -1,0 +1,16 @@
+.body{
+    padding: 0 18px;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 100%;
+}
+.imgBlock{
+    padding-right: 5%;
+}
+.imgBlock:last-child{
+    padding: 0;
+}

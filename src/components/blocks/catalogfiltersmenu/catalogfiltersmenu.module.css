@@ -1,0 +1,12 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 68px;
+}
+.catalogBlockSizes{
+    padding-right: 43px;
+}
+.rightBlock{
+    display: flex;
+    align-items: center;
+}

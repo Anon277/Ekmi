@@ -1,0 +1,66 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.block{
+    width: 570px;
+    height: 431px;
+}
+.blockContent .subTitle{
+    margin-bottom: 9px;
+}
+.blockContent{
+    max-width: 284px;
+    margin: 30px 0 0 144px;
+}
+.text{
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 6px;
+    padding-left: 20px;
+}
+.text::before{
+    left: 0;
+    top: 0;
+    position: absolute;
+    content: '•';
+    color: var(--first-letter-color);
+    font-size: 34px;
+    margin-right: 13px;
+    height: 7px;
+    width: 7px;
+}
+.firstBlock .blockContent .subBlock:nth-child(1) {
+    margin-bottom: 24px;
+}
+.firstBlock .subBlock:nth-child(2) {
+    margin-bottom: 20px;
+}
+.firstBlock .subBlock:nth-child(1) .subTitle{
+    margin-bottom: 10px;
+}
+.firstBlock .subBlock:nth-child(2) .subTitle{
+    margin-bottom: 8px;
+}
+.firstBlock .subBlock:nth-child(3) .subTitle{
+    margin-bottom: 4px;
+}
+.secondBlock .subBlock:nth-child(1){
+    margin-bottom: 11px;
+}
+.secondBlock .subTitle:nth-child(3){
+    margin-bottom: 17px;
+}
+.secondBlock .subBlock:nth-child(1) .subTitle{
+    margin-bottom: 15px;
+}
+.secondBlock .subBlock:nth-child(2) .subTitle{
+    margin: 0;
+}
+.secondBlock .subBlock:nth-child(2) .text{
+    padding-left: 0;
+}
+.secondBlock .subBlock:nth-child(2) .text::before{
+    display: none;
+}

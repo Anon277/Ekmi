@@ -1,0 +1,18 @@
+.BenefitsOfWorkSlider .swiper-pagination-bullets{
+    bottom: 64px !important;
+    left: 668px;
+}
+.BenefitsOfWorkSlider .swiper-pagination{
+    text-align:unset;
+}
+.BenefitsOfWorkSlider .swiper-pagination-bullet{
+    background-color: unset;
+    border: 0.5px solid #4B484433;
+    width: 13px;
+    height: 13px;
+    opacity: unset;
+}
+.BenefitsOfWorkSlider .swiper-pagination-bullet-active{
+    border:unset;
+    background: var(--first-letter-color);
+}

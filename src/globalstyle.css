@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Raleway";
+    src: local("Raleway"),
+         url("./src/assets/fonts/realwey/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+@font-face{
+    font-family: "OpenSans";
+    src: local("OpenSans"),
+         url("./src/assets/fonts/opensans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Poppins";
+    src: local("Poppins"),
+         url("./src/assets/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+html{
+    font-family: "Raleway";
+    --dark-background-color: #5B5B5B;
+    --main-text-color:  #343434;
+    --text-color-two: #090705;
+    --first-letter-color: #FF9619;
+    margin: 0 auto;   
+    color: var(--main-text-color);
+}
+
+button{
+    background-color: white;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38.5px;
+    padding-bottom: clamp(30px,4.8vw,80px);
+}
+.title::first-letter{
+    color: var(--first-letter-color);
+}
+
+.first-letter{
+    color: var(--first-letter-color);
+}
+
+.content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.content-two{
+    max-width: 1140px;
+    margin: 0 165px 0 135px ;
+}
+.pageBlockIndent{
+    padding-bottom: clamp( 45px,4.8vw, 80px);
+    padding-top: clamp( 45px,4.8vw, 80px);
+}
+
+swiper-container{
+    min-width: 0;
+}
+
+@media (max-width:1200px) {
+    .title{
+        margin-left: 18px;
+    }
+}
+
+@media (max-width:1200px) {
+    .minContentPadding{
+        padding: 0 17.5px;
+    }
+}
+

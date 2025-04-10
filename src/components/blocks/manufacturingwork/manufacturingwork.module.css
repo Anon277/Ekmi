@@ -1,0 +1,37 @@
+.content{
+    display: flex;
+    position: relative;
+}
+.rightBlock{
+    background-color: var(--dark-background-color);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.infoBlock{
+    color: white;
+    max-width: 460px;
+    margin-left: 117px;
+}
+.title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    margin-bottom: 25px;
+}
+.text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.07em;
+}
+.orangeBlock{
+    background-color: var(--first-letter-color);
+    width: 77px;
+    height: 83px;
+    position: absolute;
+    top: 28px;
+    right: 135px;
+}
